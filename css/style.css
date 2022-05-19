@@ -132,6 +132,11 @@ footer p{
     
 }
 
+
+.logo:hover{
+transform: scale(1.1);
+}
+
 /* PRODUCTOS */
 .headerProductos{
     background-image:url(/img/fondomarmol.jpg) ;
