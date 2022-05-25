@@ -8,16 +8,44 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/style.css">
     <title>GLOWSNEAKERS</title>
 </head>
-<body class="bodyIndex">
-    <div class="contenedorIndex">
+
+<body>
+         <div class="contenedorIndex" >
         <header>
             <div class="logo">
-                <img class="fondoImg" src="img/logo glowsneakers.png" alt="Imagen logo.">
+                <a href="index.html"> 
+                    <img a class="fondoImg" src="/img/logo glowsneakers.png" alt="Imagen logo." >
+                </a>  
             </div>
         
+
+            <nav class="navbar navbar-expand-lg navBack">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      <a class="nav-link active " href="./pages/productos.html">Productos</a>
+                      <a class="nav-link active" href="./pages/somos.html">Somos</a>
+                      <a class="nav-link active" href="./pages/Compra.html">Compra</a>
+                      <a class="nav-link active" href="./pages/contacto.html">Contacto</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+
+
+
+    <!--
 
         <nav class="menu">
             <ul>
@@ -26,14 +54,14 @@
                 </li>
                 <li>
                     <a href="pages/productos.html">productos</a>
-                        <ul class="sub-menu">
-                         <li>Sneakers</li>
-                            <li>Medias</li>
-                        </ul>
+                    <ul class="sub-menu">
+                        <li>Sneakers</li>
+                        <li>Medias</li>
+                    </ul>
                 </li>
                 <li>
                     <a href="pages/somos.html">Somos</a>
-
+                    
                 </li>
                 <li>
                     <a href="pages/Compra.html">Compra</a>
@@ -43,39 +71,45 @@
                 </li>
             </ul>
         </nav>
+    -->
     </header>
 
-    <main>
+    <main class="mainIndex">
+     
+        
 
-        <div class="contenedorPromo">
-            <img class="promo" src="img/fotodepromo.webp" alt="Foto de promocion">
-        </div>
+
+
+
+        <!--
+
+            <div class="contenedorPromo">
+                <img class="promo" src="img/fotodepromo.webp" alt="Foto de promocion">
+            </div>
+        -->
 
     </main>
+    
 
-    <section>
-        <div>
-            <h1 class="h1Index"> 
-                Productos mas vendidos
-            </h1>
-            <div class="galeriaIndex">
-                <img class="item1Index" src="./img/imagen preba 2.png" alt="">
+     
+    
 
-                <img class="item2Index" src="./img/imagen preba 2.png" alt="">
+        <footer class="footerIndex">
+            <div>
+                <p>
+                    Copyright @ 2022.     Todos los derechos reservados.
+                    
+                    Powered by: @Juan_Ospinaaa
+                </p>
             </div>
-    </section>
-
-    <footer>
-         <div>
-             <p>
-            Copyright @ 2022.     Todos los derechos reservados.
             
-            Powered by: @Juan_Ospinaaa
-             </p>
-         </div>
-        
-    </footer>
-</div>
+        </footer>
+    
+
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 </body>
 </html>
