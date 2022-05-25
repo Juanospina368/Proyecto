@@ -6,9 +6,9 @@
 
 
 
-.bodyIndex{
-    background-color: rgb(240, 240, 240);
-}
+.body{
+    margin: 0;
+}   
 
 header{
     
@@ -16,12 +16,40 @@ header{
    text-align: center;
    
 }
+/*new*/
+h1{
+    font-family: 'Anton', sans-serif;}
+h2{
+    font-family: 'Anton', sans-serif;}
+h3{
+    font-family: 'Anton', sans-serif;}
+p{
+    font-size: 1.25em;}
+ul{
+    list-style: none;}
 
-
-footer{
-    background-color: black;
+.heroIndex{
+      display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 90vh;
+        background-image: url(/img/JORDA\ 1\ OFFWHITE.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        background-position: center center;
+        
+        
 }
 
+
+
+/*
+    footer{
+    background-color: black;
+}*/
+/*
 footer p{
     color: white;
     font-size: 10px;
@@ -29,7 +57,7 @@ footer p{
     font-family: 'Anton', sans-serif;
     text-align: center;
 }
-
+*/
 
 .logo:hover{
 transform: scale(1.1);
@@ -42,15 +70,7 @@ transform: scale(1.1);
     font-size: 20px;
 }
 
-.mainIndex{
-    background-image: url(/img/sneaker\ fondo.jpg);
-    
-}
-
-.main{
-    background-color: red;
-
-}
+/*
 .footerIndex{
     height: 20px;
     width: 100%;
@@ -58,12 +78,106 @@ transform: scale(1.1);
     bottom: 0;
     
 }
-   
+*/
+.mainIndex{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: #F7F7F7;
+}
 
+.section1Index{
+    
+}
+.section1Index .conteiner{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+.section2Index{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+
+}
+.section2Index .conteiner{
+    padding: 100px 0px;
+    
+    
+}
+
+.caracteristicasIndex .container{
+    text-align: center;
+    padding: 250px 12px;
+}
+.caracteristicasIndex li{
+    margin: 16px 0px;
+    font-weight: bold;
+    list-style: none;
+}
+
+.footerIndex{
+    background-color: rgb(30, 30, 30);
+}
+
+footer p{
+margin: 0;
+color: rgb(100,100,100);
+padding: 12px;
+}
+
+.footerIndex .conteiner{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (min-width:720px){
+    .section1Index{
+
+    }
+    .section1Index .imgConteiner{
+        background-image: url(/img/imagen\ section.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+}
+
+.conteiner{
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: repeat(1,2fr);
+    grid-area: "imgIndex" "textIndex1"
+                           "textIndex2";
+}
+
+.caracteristicasIndex{
+    background-image: url("/img/sneaker\ fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+    background-position: calc(100vw - 700px) 120px;
+
+}
+.caracteristicasIndex .container{
+    text-align: initial;
+}
+.caracteristicasIndex{
+    margin-left: 100px;
+}
+@media (min-width: 1200px){
+    #caracteristicasIndex{
+        background-position-x: calc(100vw - 800px);
+    }
+}
 /* PRODUCTOS */
+
 .headerProductos{
     background-image:url(/img/fondomarmol.jpg) ;
 }
+
+
 
 .menuProductos{
     margin: 30px;
@@ -135,6 +249,7 @@ transform: scale(1.1);
     font-size: 10px;
     font-weight: 100px;
     font-family: 'Anton', sans-serif;
+    text-align: center;
     
 
 }
@@ -166,9 +281,23 @@ transform: scale(1.1);
 .flexProductos{
     display: flex;
     justify-content: space-around;
+    background-color: ;
 }
 
+.textProductos{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+    margin-bottom: 30px;
+}
 
+.flexProductos2{
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 50px;
+}
     
 /* SOMOS*/
 
@@ -272,6 +401,31 @@ transform: scale(1.1);
     font-family: 'Anton', sans-serif;
     text-align: center;
 }
+.heroCompra{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+    
+}
+.heroCompra .conteiner{
+    padding: 100px 0px;
+    text-align: center;
+}
+    
+.formCompra{
+    padding: 100px 0;
+    background-color: white;
+} 
+
+.textSomos{
+    background-color: black;
+    color: white;
+}
+.textSomos2{
+    background-color: white;
+}
+
+
 
 /*CONTACTO*/
 
