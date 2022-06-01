@@ -1,0 +1,43 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-image: url("../img/fondomarmol.jpg");
+    text-align: center;
+}
+
+body{
+    font-family: 'Anton', sans-serif;
+    background-color: #F7F7F7;
+}
+
+//compra
+.bodyCompra{
+    background-color: rgb(240, 240, 240);
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    list-style: none;
+    .heroCompra{
+        background-color: rgb(30, 30, 30);
+        color: white;
+        text-align: center;
+        padding: 100px 0px;
+        list-style: none;
+        .coneiner{
+            padding: 100px 0px;
+            text-align: center;
+            list-style: none;
+        }
+    }
+    .formCompra{
+        padding: 100px 0;
+        background-color: white;
+    }
+}
+
+
+
+
+
