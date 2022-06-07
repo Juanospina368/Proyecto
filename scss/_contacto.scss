@@ -1,0 +1,23 @@
+.bodyContacto{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    color: white;
+    .mainContacto{
+        padding: 200px 12px;
+    }
+}
+
+
+.footerContacto{
+    margin: 0;
+    color: rgb(100, 100, 100);
+    background-image: url(/img/fondomarmol.jpg);
+    bottom: 0;
+    .container{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        }
+    }
