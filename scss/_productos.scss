@@ -2,27 +2,33 @@
 
 .textProductos{
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: $colorprincipal;
+    color: $colorsecundario;
     height: 50px;
     margin-bottom: 30px;
 }
 
 .flexProductos{
-    display: flex;
-    justify-content: space-around;
+    @include flex (flex, space-around);
+    .btn-primary{
+        background-color: beige;
+        color: $colorprincipal;
+        border: 3px solid black;
+    }
 }
 
 .flexProductos2{
-    display: flex;
-    justify-content: space-around;
+    @extend .flexProductos;
     margin-top: 50px;
-
+    margin-bottom: 50px;
+    .btn-secundary{
+        @extend .btn-primary
+    }
 }
 
 .footerProductos{
     margin: 0;
-    color: rgb(100, 100, 100);
+    color: $colorterciario;
     background-image: url(/img/fondomarmol.jpg);
     bottom: 0;
     .container{

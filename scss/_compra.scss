@@ -2,13 +2,13 @@
 
 
 .bodyCompra{
-    background-color: white;
-    font-family: 'Anton', sans-serif;
+    background-color: $colorsecundario;
+    font-family: $fuenteprincipal;
     text-align: center;
     list-style: none;
     .heroCompra{
-        background-color: rgb(30, 30, 30);
-        color: white;
+        background-color: $colorprincipal;
+        color: $colorsecundario;
         text-align: center;
         padding: 100px 0px;
         list-style: none;
@@ -20,12 +20,12 @@
     }
     .formCompra{
         padding: 100px 0;
-        background-color: white;
+        background-color: $colorsecundario;
     }
 }
 .footerCompra{
     margin: 0;
-    color: rgb(100, 100, 100);
+    color: $colorterciario;
     background-image: url(/img/fondomarmol.jpg);
     bottom: 0;
     .container{

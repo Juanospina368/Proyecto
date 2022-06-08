@@ -51,20 +51,19 @@
 
 .section1Index{
     .container{
-        
         text-align: center;
         padding: 200px 12px;
         max-width: 1400px;
         margin: auto;
-        background-color: rgb(30, 30, 30);
-        color: white;
+        background-color: $colorprincipal;
+        color: $colorsecundario;
     }
 }
 
 .footerIndex{
     margin: 0;
-    color: rgb(100, 100, 100);
     background-image: url(/img/fondomarmol.jpg);
+    color: $colorterciario;
     .container{
         height: 100px;
         display: flex;

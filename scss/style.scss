@@ -1,3 +1,6 @@
+@import "utilities/variables";
+@import "utilities/mixin";
+@import "utilities/map";
 @import "index";
 @import "productos";
 @import "contacto";
@@ -15,9 +18,10 @@ header{
 }
 .navBack{
     background-image: url(/img/fondomarmol.jpg);
-    font-family: 'Anton', sans-serif;
+    font-family: $fuenteprincipal;
     font-size: 25px;
     .container.fluid{
+        text-align: center;
         .navbar-nav{
             display: flex;
             justify-content: center;
@@ -27,8 +31,8 @@ header{
     }
 }
 body{
-    font-family: 'Anton', sans-serif;
-    background-color: white;
+    font-family: $fuenteprincipal;
+    background-color: map-get($map: $estilos, $key: bg );
 }
 
 h1{ font-size: 3.5em;}

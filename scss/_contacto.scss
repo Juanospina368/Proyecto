@@ -1,8 +1,8 @@
 .bodyContacto{
-    background-color: rgb(0, 0, 0);
-    font-family: 'Anton', sans-serif;
+    background-color: $colorprincipal;
+    font-family: $fuenteprincipal;
     text-align: center;
-    color: white;
+    color: $colorsecundario;
     .mainContacto{
         padding: 200px 12px;
     }
@@ -11,7 +11,7 @@
 
 .footerContacto{
     margin: 0;
-    color: rgb(100, 100, 100);
+    color: $colorterciario;
     background-image: url(/img/fondomarmol.jpg);
     bottom: 0;
     .container{
