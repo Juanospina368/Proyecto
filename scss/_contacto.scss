@@ -3,21 +3,30 @@
     font-family: $fuenteprincipal;
     text-align: center;
     color: $colorsecundario;
-    .mainContacto{
-        padding: 200px 12px;
+    .main{
+        .container{
+            text-align: center;
+            padding: 200px 12px;
+            max-width: 1400px;
+            margin: auto;
+            .formContacto{
+                margin: 20px;
+            }
+        }
     }
-}
-
-
-.footerContacto{
-    margin: 0;
-    color: $colorterciario;
-    background-image: url(/img/fondomarmol.jpg);
-    bottom: 0;
-    .container{
+    
+    
+    .footerContacto{
+        margin: 0;
+        color: $colorterciario;
+        background-image: url(/img/fondomarmol.jpg);
+        bottom: 0;
+        .container{
         height: 100px;
         display: flex;
         justify-content: center;
         align-items: flex-end;
         }
     }
+    
+}

@@ -21,18 +21,21 @@
     .formCompra{
         padding: 100px 0;
         background-color: $colorsecundario;
-    }
-}
-.footerCompra{
-    margin: 0;
-    color: $colorterciario;
-    background-image: url(/img/fondomarmol.jpg);
-    bottom: 0;
-    .container{
-        height: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
+        .imputsCompra{
+            margin: 20px;
         }
     }
+    .footerCompra{
+            margin: 0;
+            color: $colorterciario;
+            background-image: url(/img/fondomarmol.jpg);
+            bottom: 0;
+            .container{
+                height: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                }
+            }
+}
 
